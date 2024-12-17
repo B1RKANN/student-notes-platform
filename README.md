@@ -29,3 +29,6 @@ A small-scale social media application where students can share course-related m
 - *Intent*: Used for navigating between pages.  
 
 ---
+
+## 💾 Knowledge Hun Download App
+<a href="https://drive.google.com/file/d/15zieUNRcS1Gc-pV9BBVYlYx_FWquRw_S/view?usp=drive_link" target="_blank">Download App</a>
