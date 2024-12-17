@@ -52,10 +52,10 @@ class AddFragment : Fragment() {
     private lateinit var db : FirebaseFirestore
     private lateinit var auth: FirebaseAuth
     private lateinit var sharedPreferences: SharedPreferences
-    private val ACCESS_KEY = "AKIAUW4RAXIUTVYSGD2I"
-    private val SECRET_KEY = "nt0S5bvID80MtRbuFNx+h5ZjcOC55di7esbWM9SK"
-    private val BUCKET_NAME = "projedepoo"
-    private val REGION = Regions.EU_CENTRAL_1
+    private val ACCESS_KEY = "YOUR ACCES KEY"
+    private val SECRET_KEY = "YOUR SECRET KEY"
+    private val BUCKET_NAME = "YOUR BUCKET NAME"
+    private val REGION = Regions.EU_CENTRAL_1//YOUR AWS S3 REGİON
     private lateinit var fileId:String
 
 
