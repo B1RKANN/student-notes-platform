@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.EditProfileFragment">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="100dp"
+        android:text="Username:"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:paddingLeft="8dp"
+        android:id="@+id/userNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_border"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/changeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Change Username"
+        app:layout_constraintEnd_toEndOf="@+id/userNameEditText"
+        app:layout_constraintStart_toStartOf="@+id/userNameEditText"
+        app:layout_constraintTop_toBottomOf="@+id/userNameEditText" />
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changeButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

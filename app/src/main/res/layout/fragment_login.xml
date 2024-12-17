@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginFragment">
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Knowledge Hub"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+
+            android:drawableStart="@drawable/baseline_account_circle_24"
+            android:drawablePadding="10dp"
+            android:id="@+id/emailAndUserNameText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edittext_border"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="E-Mail or Username"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="121dp"
+
+            />
+
+        <EditText
+            android:drawableStart="@drawable/pass_vector"
+            android:hint="Password"
+            android:drawablePadding="8dp"
+            android:id="@+id/passwordText"
+            android:background="@drawable/edittext_border"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="196dp" />
+
+        <Button
+
+            android:layout_gravity="center"
+            android:id="@+id/loginButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+
+            android:layout_marginTop="18dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textwiev"
+                android:text="Don't have an account yet?"
+                android:textSize="17dp"
+                android:layout_marginTop="40dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/signUpText"
+                android:text="Sign Up"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="8dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

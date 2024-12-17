@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "540991314817",
+    "project_id": "knowledge-hub-birkan",
+    "storage_bucket": "knowledge-hub-birkan.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540991314817:android:8473b45b05a16736422680",
+        "android_client_info": {
+          "package_name": "com.birkanboz.knowledgehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD33jt0FPuFOhpeHgjB_FqZJmxeIayusIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

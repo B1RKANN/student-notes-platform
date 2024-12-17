@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+<ImageView
+android:id="@+id/imageView"
+android:layout_width="36dp"
+android:layout_height="36dp"
+android:src="@drawable/baseline_person_24"
+android:layout_gravity="center_vertical" />
+
+<LinearLayout
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:orientation="vertical"
+android:layout_marginStart="8dp"
+android:gravity="center_vertical">
+
+<TextView
+    android:id="@+id/userNameText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="B1RKAN"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="#666666" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Matematik 2023 Çıkmış SINAV - Bu sınav hakkında çok daha fazla detay yazılabilir ve uzun başlıklar desteklenir."
+        android:textColor="#000000"
+        android:textSize="14sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go to Notes"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp" />
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 dk önce" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
